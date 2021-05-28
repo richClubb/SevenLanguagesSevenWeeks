@@ -88,9 +88,12 @@ class Converter
 
 end
 
+if ARGV.length != 1
+  puts "Incorrect arguments"
+  exit
+end
 
-puts "Enter a number or a roman numeral"
-input = gets.chomp
+input = ARGV[0]
 
 conv = Converter.new(input)
 
