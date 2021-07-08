@@ -26,6 +26,20 @@ I might play around with it a little more, but I think as I'm not a web programm
 
 ## Io
 
+I'm not a fan, mostly because of the syntax inconsistency, in some cases when I was working with variables they were treated as variables, but when passing them to methods they acted like strings which was super confusing.  The lazy evaluation is an interesting concept, and similar to Mathematica you can define "formulae" which are not evaluated until you call them e.g. `a := b + c + d` but if you have not yet defined b, c or d it doesn't matter until you want to get the value of a.
+
+I know it isn't really a language for production environments, but I can't really see many benefits of using it, and 
+
+I couldn't get my roman numeral example to work (probably because I spent only a little time on it and it was mostly spent debugging why certain parts of my method didn't work), but this might be because I'm not thinking about it in the "right" way. So I will try again at a later date, maybe for the case of Io instead of having a single class that can detect and do both transformations I just have to live with two separate methods `toNumeral` and `toNumber`
+
+I think I'll take this weekend to look over the chapter again and see if spending a little more time reading helps.
+
+### Side Note
+
+One problem this did raise is that the lack of good examples and an effective debugger is a real bind. Because of things like lazy evaluation you don't necessarily know if conditions are not working due to circumstances outside your knowledge and it isn't great to have to add `println` debugging to effectively debug your code.
+
+It is a bit of a personal weakness that I find using examples more useful, so this is probably something I need to work on, but I think it isn't helped by the lack of an 'official' API for the language. The tutorials are a bit weak. (It's worth noting that the author did manage to write this chapter with exactly the same, or less, detail)
+
 ## Prolog
 
 ## Scala
